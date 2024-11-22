@@ -21,7 +21,6 @@ def addOneCustomer():
 addOneCustomer()
 cur.execute("SELECT * FROM customers")
 print(cur.fetchall()[0])
-print(cur.fetchall()[1])
 
 
 conn.close()
